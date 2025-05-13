@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Echo of the Stars - Manga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0a0f1f;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      color: #4af;
+    }
+
+    img.manga-page {
+      max-width: 90%;
+      height: auto;
+      border: 4px solid #4af;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #0ff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manga: Echo of the Stars</h1>
+    <p>Chapter 1 – Voices Among the Void</p>
+  </header>
+
+  <!-- Здесь вставляем мангу -->
+  <img src="manga_page.png" alt="Echo of the Stars Manga" class="manga-page">
+
+  <br>
+  <a href="index.html" class="back-link">← Back to Home</a>
+</body>
+</html>
